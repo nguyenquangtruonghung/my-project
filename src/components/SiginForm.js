@@ -20,7 +20,7 @@ const UserLogin = () => {
     try {
       console.log('Dữ liệu gửi đi:', formData); // Log dữ liệu trước khi gửi để kiểm tra
       const response = await axios.post(
-        'https://us-east-1.aws.data.mongodb-api.com/app/application-0-sznak/endpoint/newUsers',
+        'https://eastasia.azure.data.mongodb-api.com/app/application-0-hlnel/endpoint/postUser',
         formData
       );
 

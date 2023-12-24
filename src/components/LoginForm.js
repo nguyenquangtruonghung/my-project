@@ -8,7 +8,7 @@ import UserLogin from './SiginForm';
 import Filldata from './showdata';
 
 const fetchData = async () => {
-  const response = await fetch('https://us-east-1.aws.data.mongodb-api.com/app/application-0-sznak/endpoint/getUsers');
+  const response = await fetch('https://eastasia.azure.data.mongodb-api.com/app/application-0-hlnel/endpoint/getUser');
   const data = await response.json();
   const jsonArray = Array.isArray(data) ? data : [data];
   return jsonArray;

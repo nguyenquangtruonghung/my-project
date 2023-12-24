@@ -3,7 +3,7 @@ const UserList = () => {
     const [userData, setUserData] = useState([]);
     useEffect(() => {
       // Gọi API 
-      fetch('https://us-east-1.aws.data.mongodb-api.com/app/application-0-sznak/endpoint/getUsers')
+      fetch('https://eastasia.azure.data.mongodb-api.com/app/application-0-hlnel/endpoint/getUser')
         .then(response => response.json())
         .then(data => {
           // Cập nhật state với dữ liệu người dùng
