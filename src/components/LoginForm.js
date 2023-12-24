@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import {  Routes, Route } from "react-router-dom";
 import UserList from './ListUser';
-import MyComponent from './LogData';
+import MyComponent from './Logdata';
 import Home from './Home';
 import UserLogin from './SiginForm';
 import Filldata from './showdata';
