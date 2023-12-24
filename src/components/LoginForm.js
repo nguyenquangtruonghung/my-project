@@ -2,10 +2,11 @@ import React from 'react';
 import Nav from './Nav';
 import {  Routes, Route } from "react-router-dom";
 import UserList from './ListUser';
-import MyComponent from './Logdata';
+import MyComponent from './LogData';
 import Home from './Home';
 import UserLogin from './SiginForm';
 import Filldata from './showdata';
+import './LoginForm.css'; // Đảm bảo đường dẫn đúng
 
 const fetchData = async () => {
   const response = await fetch('https://eastasia.azure.data.mongodb-api.com/app/application-0-hlnel/endpoint/getUser');
