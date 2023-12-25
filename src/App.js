@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
-import MyComponent1 from "./Component/LoginForm";
+import MyComponent1 from "./components/LoginForm";
 
 function App() {
   return (
