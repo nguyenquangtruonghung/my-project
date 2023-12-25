@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter basename="/my-project">
       <div className="App">
-        <h1>DATN - Bui Minh Triet</h1>
+        <h1>SINGLE CYLINDER SOLENOID ENGINE</h1>
         <MyComponent1 />
       </div>
     </BrowserRouter>
